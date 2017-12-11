@@ -14,16 +14,19 @@
     </head>
 
     <body>
+
         <div id="menu">
+
             <div id="menuTitle">
+                <h1>Code Match  <img src="img/codematch.png" width="64px" height="64px"></h1>
                 <h3>Choisis le langage de programmation :</h3>
             </div>
-            <form>
-                <input type="submit" name="language" value="HTML" class="submitMenuSelect" id="submitMenuSelectHTML"><br>
-                <input type="submit" name="language" value="C" class="submitMenuSelect" id="submitMenuSelectC"><br>
-                <input type="submit" name="language" value="JS" class="submitMenuSelect" id="submitMenuSelectJS"><br>
-                <input type="submit" name="language" value="JAVA" class="submitMenuSelect"id="submitMenuSelectJAVA"><br>
-            </form>
+            <div id="menuButtons">
+                <button type="submit" name="language" class="submitMenuSelect" id="submitMenuSelectHTML" onclick="langageSelected('HTML');">HTML<br><img src="img/html.png" width="64px" height="64px"></button><br>
+                <button type="submit" name="language" class="submitMenuSelect" id="submitMenuSelectC" onclick="langageSelected('C');">C<br><img src="img/c.png" width="64px" height="64px"></button><br>
+                <button type="submit" name="language" class="submitMenuSelect" id="submitMenuSelectJS" onclick="langageSelected('JS');">JS<br><img src="img/js.png" width="64px" height="64px"></button><br>
+                <button type="submit" name="language" class="submitMenuSelect"id="submitMenuSelectJAVA" onclick="langageSelected('JAVA');">JAVA<br><img src="img/java.png" width="64px" height="64px"></button><br>
+            </div>
         </div>
 
     </body>
