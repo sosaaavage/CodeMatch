@@ -1,0 +1,54 @@
+body
+{
+    background-color: black;
+}
+
+#menu{
+    
+    text-align: center;
+}
+
+.submitMenuSelect
+{
+    border:none;
+    padding:4px 4px 4px 4px;
+    margin: 8px 8px 8px 8px;
+	border-radius:2px;
+	box-shadow:3px 3px 24px #999;
+	background:#fff;
+	font:bold 13px Arial;
+    color:#555;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    width: 10em;
+    height: 6em;
+}
+
+#submitMenuSelectHTML:hover
+{
+    background-color : rgb(6, 151, 18);
+    color : white;
+}
+#submitMenuSelectC:hover
+{
+    background-color : rgb(8, 106, 187);
+    color : white;
+}
+#submitMenuSelectJS:hover
+{
+    background-color : rgb(206, 199, 8);
+    color : white;
+}
+#submitMenuSelectJAVA:hover
+{
+    background-color : rgb(151, 47, 6);
+    color : white;
+}
+
+#menuTitle{
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
